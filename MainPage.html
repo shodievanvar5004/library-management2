@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kutubxona tizimi</title>
+  <link rel="stylesheet" href="MainPage.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-book-open"></i>
+        <span>Kutubxona tizimi</span>
+      </div>
+      <nav class="nav">
+        <a href="#" class="nav-link active">Bosh sahifa</a>
+        <a href="#" class="nav-link">Kitoblar</a>
+        <a href="#" class="nav-link">Joylashuv</a>
+        <a href="#" class="btn-logout">
+          <i class="fas fa-sign-out-alt"></i> Chiqish
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Search Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Kitobni qidiring</h1>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Kitob nomi yoki muallifini kiriting..." />
+        <button id="searchBtn">
+          <i class="fas fa-search"></i> Qidirish
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories container">
+    <h2>Kitob turlari</h2>
+    <div class="category-buttons">
+      <button class="cat-btn active" data-category="all">Barchasi</button>
+      <button class="cat-btn" data-category="adabiy">Adabiy adabiyot</button>
+      <button class="cat-btn" data-category="ilmiy">Ilmiy</button>
+      <button class="cat-btn" data-category="diniy">Diniy</button>
+      <button class="cat-btn" data-category="bolalar">Bolalar adabiyoti</button>
+      <button class="cat-btn" data-category="tarix">Tarixiy</button>
+    </div>
+  </section>
+
+  <!-- Books Grid -->
+  <section class="books container">
+    <h2>Mavjud kitoblar</h2>
+    <div class="books-grid" id="booksGrid">
+      <!-- Kitoblar JS orqali qo'shiladi -->
+    </div>
+  </section>
+
+  <script src="MainPage.js"></script>
+</body>
+</html>

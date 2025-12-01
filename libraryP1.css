@@ -1,0 +1,78 @@
+:root{    
+  --glass: rgba(255,255,255,0.12);
+  --glass-strong: rgba(255,255,255,0.22);
+  --text: #ffffff;
+  --shadow: 0 10px 30px rgba(0,0,0,0.35);
+  font-family: system-ui,  "Segoe UI",  "Helvetica Neue", Arial;
+}
+
+/*Tayyor*/
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/*Tayyor*/
+.backgrountImg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 0px);
+  display: flex;
+}
+
+/* Tayyor */
+.PositionOfMidle {
+  
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 30px;
+}
+/* Tayyor */
+.border1{
+  text-align: center;
+  max-width: 900px;
+  padding: 36px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(4px);
+}
+
+/* Tayyor */
+.stText{
+  font-size: clamp(26px, 4vw, 46px);
+  margin: 0 0 10px 0;
+  font-weight: 800;
+  color: var(--text);
+}
+/* Tayyor */
+.ndText{
+  margin: 0 0 22px 0;
+  opacity: 0.92;
+  font-size: 16px;
+  color: white;
+}
+
+/* Tayyor */
+.myButton{
+  display:inline-block;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: rgb(14, 112, 225);
+}
+
+
+/*Tayyor*/
+.myButton:hover{
+  transform: translateY(-6px) scale(1.02);
+}
+
+
+

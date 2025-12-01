@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library | Register</title>
+    <link rel="stylesheet" href="libraryP2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2>Create Account</h2>
+            <p>Join the library management system</p>
+            
+            <form id="registerForm">
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="+86 __ ___ __ __" required><br><br>
+                </div>
+                
+                <div class="input-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required><br><br>
+                </div>
+                
+                <div class="input-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required><br><br>
+                </div>
+                
+                <div class="input-group">
+                    <label for="studentId">Student ID</label>
+                    <input type="text" id="studentId" placeholder="Enter your Student ID" required><br><br>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Minimum 6 characters" required><br><br>
+                </div>
+                
+                <div class="input-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Repeat your password" required><br><br>
+                </div>
+                
+                <button type="submit">Register</button>
+            </form>
+            
+            <p class="switch-text">
+                Already have an account? <a href="libraryP2.html">Log in here</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="RegisterPage.js"></script>
+</body>
+</html>
